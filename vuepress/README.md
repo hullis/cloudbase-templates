@@ -1,5 +1,6 @@
 ---
 home: true
+heroImage: logo.png
 actionText: 开始 →
 actionLink: /guides/front-end/JavaScript/browser
 features:

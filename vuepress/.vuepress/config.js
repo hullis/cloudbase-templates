@@ -20,6 +20,7 @@ module.exports = ctx => ({
     lineNumbers: true // 代码块显示行号
   },
 	themeConfig: {
+    repo: 'hullis/cloudbase-templates',
 		lastUpdated: 'Last Updated',
 		nav: [{
 				text: "首页",
@@ -30,7 +31,7 @@ module.exports = ctx => ({
 				link: "/guides/"
 			},
 		],
-		editLinks: false,
+		editLinks: true,
 		editLinkText: '帮助我们改善此页面！',
 		locales: {
 			'/': {
@@ -49,13 +50,6 @@ module.exports = ctx => ({
 			updatePopup: true
 		}],
 		['@vuepress/medium-zoom', true],
-		// ['@vuepress/google-analytics', {
-		//   ga: 'UA-145821923-1'
-		// }],
-		// ['vuepress-plugin-baidu-google-analytics', {
-		//   hm: '009a2f9b8cfc23cb5722f109462e450f',
-		//   ignore_hash: false
-		// }],
 		['container', {
 			type: 'vue',
 			before: '<pre class="vue-container"><code>',
