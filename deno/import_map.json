@@ -1,5 +1,0 @@
-{
-  "imports": {
-    "https://raw.githubusercontent.com/": "./gitraw/"
-  }
-}
