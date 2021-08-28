@@ -17,7 +17,7 @@ module.exports = ctx => ({
     ['meta', { name: 'apple-mobile-web-app-status-bar-style',  }]
   ],
   markdown: {
-    lineNumbers: true // 代码块显示行号
+    lineNumbers: false // 代码块显示行号
   },
 	themeConfig: {
     repo: 'hullis/cloudbase-templates',
@@ -86,6 +86,8 @@ function renderSiderBar() {
 					'front-end/JavaScript/data-structure',
 					'front-end/JavaScript/DOM',
 					'front-end/JavaScript/localStorage',
+					'front-end/JavaScript/创建对象和原型链',
+					'front-end/JavaScript/面向对象：类的定义和继承的几种方式',
 				]
 			},
 			{
