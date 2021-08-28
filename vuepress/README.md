@@ -10,5 +10,5 @@ features:
   details: 将复杂的问题一一拆解。
 - title: 紧跟热点
   details: 当下热点技术一网打尽。
-footer: 皖ICP备2020018003号
+footer: MIT Licensed | Copyright © 皖ICP备2020018003号
 ---

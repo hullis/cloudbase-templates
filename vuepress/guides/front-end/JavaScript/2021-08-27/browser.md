@@ -2,7 +2,7 @@
 
 ## 事件机制
 
-### 1.1 事件触发三阶段
+### 事件触发三阶段
 
 - document 往事件触发处传播，遇到注册的捕获事件会触发
 - 传播到事件触发处时触发注册的事件
@@ -20,7 +20,7 @@ node.addEventListener('click',(event) =>{
 },true)
 ```
 
-### 1.2 注册事件
+### 注册事件
 
 - 通常我们使用 `addEventListener` 注册事件，该函数的第三个参数可以是布尔值，也可以是对象。对于布尔值 `useCapture` 参数来说，该参数默认值为 `false` 。`useCapture` 决定了注册的事件是捕获事件还是冒泡事件
 - 一般来说，我们只希望事件只触发在目标上，这时候可以使用 `stopPropagation` 来阻止事件的进一步传播。通常我们认为 `stopPropagation` 是用来阻止事件冒泡的，其实该函数也可以阻止捕获事件。`stopImmediatePropagation` 同样也能实现阻止事件，但是还能阻止该事件目标执行别的注册事件
@@ -36,7 +36,7 @@ node.addEventListener('click',(event) => {
 },true)
 ```
 
-### 1.3 事件代理
+### 事件代理
 
 > 如果一个节点中的子节点是动态生成的，那么子节点需要注册事件的话应该注册在父节点上
 
@@ -65,7 +65,7 @@ node.addEventListener('click',(event) => {
 
 > 因为浏览器出于安全考虑，有同源策略。也就是说，如果协议、域名或者端口有一个不同就是跨域，Ajax 请求会失败
 
-### 2.1 JSONP
+### JSONP
 
 > JSONP 的原理很简单，就是利用 `<script>` 标签没有跨域限制的漏洞。通过 `<script>` 标签指向一个需要访问的地址并提供一个回调函数来接收数据当需要通讯时
 
@@ -80,19 +80,19 @@ node.addEventListener('click',(event) => {
 
 - JSONP 使用简单且兼容性不错，但是只限于 get 请求
 
-### 2.2 CORS
+### CORS
 
 - `CORS`需要浏览器和后端同时支持
 - 浏览器会自动进行 `CORS` 通信，实现CORS通信的关键是后端。只要后端实现了 `CORS`，就实现了跨域。
 - 服务端设置 `Access-Control-Allow-Origin` 就可以开启 `CORS`。 该属性表示哪些域名可以访问资源，如果设置通配符则表示所有网站都可以访问资源
 
 
-### 2.3 document.domain
+### document.domain
 
 - 该方式只能用于二级域名相同的情况下，比如 `a.test.com` 和 `b.test.com` 适用于该方式。
 - 只需要给页面添加 `document.domain = 'test.com'` 表示二级域名都相同就可以实现跨域
 
-### 2.4 postMessage
+### postMessage
 
 > 这种方式通常用于获取嵌入页面中的第三方页面数据。一个页面发送消息，另一个页面判断来源并接收消息
 
@@ -112,7 +112,7 @@ mc.addEventListener('message', (event) => {
 
 ## Event loop
 
-### 3.1 JS中的event loop
+### JS中的event loop
 
 > 众所周知 JS 是门非阻塞单线程语言，因为在最初 JS 就是为了和浏览器交互而诞生的。如果 JS 是门多线程的语言话，我们在多个线程中处理 DOM 就可能会发生问题（一个线程中新加节点，另一个线程中删除节点）
 
@@ -181,7 +181,7 @@ console.log('script end');
 
 > 通过上述的 `Event loop` 顺序可知，如果宏任务中的异步代码有大量的计算并且需要操作 `DOM` 的话，为了更快的响应界面响应，我们可以把操作 `DOM` 放入微任务中
 
-### 3.2 Node 中的 Event loop
+### Node 中的 Event loop
 
 - `Node` 中的 `Event loop` 和浏览器中的不相同。
 - `Node` 的 `Event loop` 分为`6`个阶段，它们会按照顺序反复运行
@@ -366,7 +366,7 @@ self.addEventListener("fetch", e => {
 - 在构建 CSSOM 树时，会阻塞渲染，直至 CSSOM 树构建完成。并且构建 CSSOM 树是一个十分消耗性能的过程，所以应该尽量保证层级扁平，减少过度层叠，越是具体的 CSS 选择器，执行速度越慢
 - 当 HTML 解析到 script 标签时，会暂停构建 DOM，完成后才会从暂停的地方重新开始。也就是说，如果你想首屏渲染的越快，就越不应该在首屏就加载 JS 文件。并且 CSS 也会影响 JS 的执行，只有当解析完样式表才会执行 JS，所以也可以认为这种情况下，CSS 也会暂停构建 DOM
 
-### 5.1 图层
+### 图层
 
 > 一般来说，可以把普通文档流看成一个图层。特定的属性可以生成一个新的图层。不同的图层渲染互不影响，所以对于某些频繁需要渲染的建议单独生成一个新图层，提高性能。但也不能生成过多的图层，会引起反作用
 
@@ -378,7 +378,7 @@ self.addEventListener("fetch", e => {
 - 通过动画实现的 `opacity` 动画转换
 - `position: fixed`
 
-### 5.2 重绘（Repaint）和回流（Reflow）
+### 重绘（Repaint）和回流（Reflow）
 
 - 重绘是当节点需要更改外观而不会影响布局的，比如改变 color 就叫称为重绘
 - 回流是布局或者几何属性需要改变就称为回流
