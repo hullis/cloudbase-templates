@@ -2,7 +2,7 @@
 home: true
 heroImage: logo.png
 actionText: 开始 →
-actionLink: /guides/
+actionLink: /guides/Home/
 features:
 - title: 简洁至上
   details: 追求重点和难点,剔除陈旧的知识。

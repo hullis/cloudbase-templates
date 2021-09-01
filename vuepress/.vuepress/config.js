@@ -1,5 +1,6 @@
 const { fs, path } = require('@vuepress/shared-utils')
 const readFileList = require("../build.js");
+const sidebar = require('./sidebar')
 module.exports = ctx => ({
 	title: "我的收藏",
 	description: "基于云开发的 VuePress 网站应用示例",
@@ -23,14 +24,15 @@ module.exports = ctx => ({
     repo: 'hullis/cloudbase-templates',
 		lastUpdated: 'Last Updated',
 		nav: renderNav(),
+		sidebar:sidebar,
 		editLinks: true,
 		editLinkText: '帮助我们改善此页面！',
 		locales: {
 			'/': {
 				editLinkText: '在 GitHub 上编辑此页',
-				sidebar: {
-					'/guides/': renderSiderBar()
-				}
+				// sidebar:{
+				// 	'/guides/': renderSiderBar()
+				// }
 			}
 		}
 	},
@@ -53,34 +55,51 @@ module.exports = ctx => ({
 		}],
 	],
   extraWatchFiles: [
-    '.vuepress/nav/zh.js',
+    '.vuepress/sidebar.js',
   ]
 });
 function renderNav() {
 	return [
 		{
 			text: "指南",
-			link: "/guides/"
+			link: "/guides/Home/"
+		},
+		{
+			text: "HTML",
+			link: "/guides/HTML/"
+		},
+		{
+			text: "JavaScript",
+			link: "/guides/JavaScript/"
+		},
+		{
+			text: "Node",
+			link: "/guides/Node/"
 		},
 	]
 }
 function renderSiderBar() {
 	return (
 		[
+			// {
+			// 	title: 'HTML、CSS、JavaScript',
+			// 	collapsable: false,
+			// 	children: readFileList('JavaScript')
+			// },
+			// {
+			// 	title: 'VUE',
+			// 	collapsable: false,
+			// 	children: readFileList('VUE')
+			// },
 			{
-				title: 'HTML、CSS、JavaScript',
+				title: '基础篇',
 				collapsable: false,
-				children: readFileList('JavaScript')
+				children: readFileList('Node/base')
 			},
 			{
-				title: 'VUE',
+				title: '内置模块',
 				collapsable: false,
-				children: readFileList('VUE')
-			},
-			{
-				title: 'Node',
-				collapsable: false,
-				children: readFileList('Node')
+				children: readFileList('Node/modules')
 			},
 		]
 	)
