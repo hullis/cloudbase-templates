@@ -24,7 +24,7 @@ module.exports = ctx => ({
     repo: 'hullis/cloudbase-templates',
 		lastUpdated: 'Last Updated',
 		nav: renderNav(),
-		sidebar:sidebar,
+		sidebar: renderSiderBar(),
 		editLinks: true,
 		editLinkText: '帮助我们改善此页面！',
 		locales: {
@@ -69,6 +69,10 @@ function renderNav() {
 			link: "/guides/HTML/"
 		},
 		{
+			text: "CSS",
+			link: "/guides/CSS/"
+		},
+		{
 			text: "JavaScript",
 			link: "/guides/JavaScript/"
 		},
@@ -80,27 +84,33 @@ function renderNav() {
 }
 function renderSiderBar() {
 	return (
-		[
-			// {
-			// 	title: 'HTML、CSS、JavaScript',
-			// 	collapsable: false,
-			// 	children: readFileList('JavaScript')
-			// },
-			// {
-			// 	title: 'VUE',
-			// 	collapsable: false,
-			// 	children: readFileList('VUE')
-			// },
-			{
-				title: '基础篇',
-				collapsable: false,
-				children: readFileList('Node/base')
-			},
-			{
-				title: '内置模块',
-				collapsable: false,
-				children: readFileList('Node/modules')
-			},
-		]
+		{
+			'/guides/HTML': [
+				{
+					title: 'HTML基础',
+					collapsable: false,
+					children: readFileList('HTML/post')
+				}
+			],
+			'/guides/CSS': [
+				{
+					title: 'CSS基础',
+					collapsable: false,
+					children: readFileList('CSS/post')
+				}
+			],
+			'/guides/JavaScript': [
+				{
+					title: '基础篇',
+					collapsable: false,
+					children: readFileList('JavaScript/2021-08-27')
+				},
+				{
+					title: '内置模块',
+					collapsable: false,
+					children: readFileList('JavaScript/2021-08-28')
+				},
+			]
+		}
 	)
 }
