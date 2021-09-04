@@ -1,6 +1,5 @@
 const { fs, path } = require('@vuepress/shared-utils')
 const readFileList = require("../build.js");
-const sidebar = require('./sidebar')
 module.exports = ctx => ({
 	title: "我的收藏",
 	description: "基于云开发的 VuePress 网站应用示例",
@@ -89,7 +88,12 @@ function renderSiderBar() {
 				{
 					title: 'HTML基础',
 					collapsable: false,
-					children: readFileList('HTML/post')
+					children: readFileList('HTML/HTML')
+				},
+				{
+					title: 'HTML5',
+					collapsable: false,
+					children: readFileList('HTML/HTML5')
 				}
 			],
 			'/guides/CSS': [
@@ -106,7 +110,7 @@ function renderSiderBar() {
 					children: readFileList('JavaScript/2021-08-27')
 				},
 				{
-					title: '内置模块',
+					title: 'JavaScript',
 					collapsable: false,
 					children: readFileList('JavaScript/2021-08-28')
 				},
