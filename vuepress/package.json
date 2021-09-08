@@ -21,6 +21,8 @@
     "vue-toasted": "^1.1.25",
     "vuepress": "^1.0.1",
     "vuepress-plugin-baidu-google-analytics": "^1.0.0",
-    "vuepress-plugin-flowchart": "^1.4.2"
+    "vuepress-plugin-flowchart": "^1.4.2",
+    "simple-git": "^2.17.0",
+    "cross-env": "^7.0.2"
   }
 }

@@ -79,6 +79,14 @@ function renderNav() {
 			text: "Node",
 			link: "/guides/Node/"
 		},
+		{
+			text: "面试",
+			link: "/guides/interview/"
+		},
+		{
+			text: "代码片段",
+			link: "/guides/codeSnippet/"
+		},
 	]
 }
 function renderSiderBar() {
@@ -107,13 +115,32 @@ function renderSiderBar() {
 				{
 					title: '基础篇',
 					collapsable: false,
-					children: readFileList('JavaScript/2021-08-27')
+					children: readFileList('JavaScript/1')
 				},
 				{
 					title: 'JavaScript',
 					collapsable: false,
-					children: readFileList('JavaScript/2021-08-28')
+					children: readFileList('JavaScript/2')
 				},
+			],
+			'/guides/interview': [
+				{
+					title: '面试题',
+					collapsable: false,
+					children: readFileList('interview/post')
+				},
+				{
+					title: '面经博客',
+					collapsable: false,
+					children: readFileList('interview/1')
+				}
+			],
+			'/guides/codeSnippet': [
+				{
+					title: '代码片段',
+					collapsable: false,
+					children: readFileList('codeSnippet/post')
+				}
 			]
 		}
 	)
