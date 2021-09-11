@@ -20,7 +20,7 @@ function upDataFile() {
 function gitCommit(time) {
 	gitEntity
 	.add('./*')
-	.commit('更新' + time)
+	.commit('更新 ' + time)
 	.push(['-u', 'origin', 'master'], (e) => {
 		console.log('commit 成功，时间：' + time)
 	})

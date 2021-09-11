@@ -2,7 +2,7 @@
 
 ---
 
-### 1、下载一个 excel 文档
+## 1、下载一个 excel 文档
 
 同时适用于 word,ppt 等浏览器不会默认执行预览的文档,也可以用于下载后端接口返回的流数据，见 `3`
 
@@ -24,9 +24,7 @@ function download(link, name) {
 download('http://111.229.14.189/file/1.xlsx')
 ```
 
-### 2、在浏览器中自定义下载一些内容
-
----
+## 2、在浏览器中自定义下载一些内容
 
 场景：我想下载一些 DOM 内容，我想下载一个 JSON 文件
 
@@ -72,7 +70,7 @@ downloadFile("1.txt", "lalalallalalla");
 downloadFile("1.json", JSON.stringify({ name: "hahahha" }));
 ```
 
-### 3、下载后端返回的流
+## 3、下载后端返回的流
 
 数据是后端以接口的形式返回的,调用`1`中的 download 方法进行下载
 
@@ -81,7 +79,7 @@ download("http://111.229.14.189/gk-api/util/download?file=1.jpg");
 download("http://111.229.14.189/gk-api/util/download?file=1.mp4");
 ```
 
-### 4、提供一个图片链接，点击下载
+## 4、提供一个图片链接，点击下载
 
 图片、pdf 等文件，浏览器会默认执行预览，不能调用 download 方法进行下载，需要先把图片、pdf 等文件转成 blob，再调用 download 方法进行下载，转换的方式是使用 axios 请求对应的链接
 
@@ -104,7 +102,7 @@ function downloadByLink(link, fileName) {
 
 **注意：会有同源策略的限制，需要配置转发**
 
-### 6、防抖
+## 6、防抖
 
 在一定时间间隔内，多次调用一个方法，只会执行一次.
 
@@ -164,7 +162,7 @@ export function debounce(func, wait=500, immediate=false) {
 ```
 如果第三个参数`immediate`传 true，则会立即执行一次调用，后续的调用不会在执行，可以自己在代码中试一下
 
-### 7、节流
+## 7、节流
 
 多次调用方法，按照一定的时间间隔执行
 
@@ -245,7 +243,7 @@ export function debounce(func, wait=500, immediate=false) {
 		</body>
 </html>
 ```
-### 8、`cleanObject`
+## 8、`cleanObject`
 
 去除对象中 value 为空(null,undefined,'')的属性,举个栗子：
 ```js
@@ -303,4 +301,309 @@ let res=cleanObject({
 		page:1
 })
 console.log("res", res) //输入{page:1,pageSize:10}
+```
+
+## 9、全排列
+
+```js
+function permutate(str) {
+		var array = str.split('');
+		function loop(array, pre = []) {
+				if (array.length == 1) {
+						return [pre.concat(array).join('')];
+				}
+				let res = [];
+				for (let index = 0; index < array.length; index++) {
+						var first = array.pop();
+						res = res.concat(loop(array, [...pre, first]));
+						array.unshift(first);
+				}
+				return res;
+		}
+		return Array.from(new Set(loop(array)))
+}
+```
+## 10、二分搜索
+
+```js
+function BinarySearch1 (arr, target) {
+		return search(arr, target, 0, arr.length - 1)
+		function search (arr, target, from, to) {
+				if (from > to) {
+						return -1
+				}
+				const mid = Math.floor((from + to)/2)
+				if (arr[mid] > target) {
+						return search(arr, target, from, mid - 1)
+				} else if (arr[mid] < target) {
+						return search(arr, target, mid + 1, to)
+				} else {
+						return mid
+				}
+		}
+}
+
+function BinarySearch2 (arr, target) {
+		let from = 0
+		let to = arr.length - 1
+		let mid = Math.floor((from + to)/2)
+		while (from <= to) {
+				mid = Math.floor((from + to)/2)
+				if (arr[mid] > target) {
+						to = mid - 1
+				} else if (arr[mid] < target) {
+						from = mid + 1
+				} else {
+						return mid
+				}
+		}
+
+		return -1
+}
+```
+
+## 11、排序
+
+### (1).冒泡排序
+
+```js
+/*
+第1次循环确定最大的
+第n次循环确定第n大的
+ */
+function BubbleSort (arr) {
+		const length = arr.length
+
+		for (let i = 0; i < length; i++) {
+				for (let j = 1; j < length-i; j++) {
+						if (arr[j] < arr[j - 1]) {
+								const temp = arr[j]
+								arr[j] = arr[j - 1]
+								arr[j - 1] = temp
+						}
+				}
+		}
+
+		return arr
+}
+```
+
+### (2).快速排序
+
+```js
+/*
+在左边找大数，在右边找小数
+交换
+ */
+function QuickSort(arr, low, high) {
+		let left = low
+		let right = high
+		let basic = arr[low]
+		while (left < right) {
+				while (left < right && arr[right] > basic) {
+						right--
+				}
+				while (left < right && arr[left] <= basic) {
+						left++
+				}
+
+				if (left < right) {
+						const temp = arr[left]
+						arr[left] = arr[right]
+						arr[right] = temp
+				} else {
+						const temp = arr[low]
+						arr[low] = arr[left]
+						arr[left] = temp
+
+						QuickSort(arr, low, left - 1)
+						QuickSort(arr, right + 1, high)
+				}
+		}
+
+		return arr
+}
+```
+
+### (3).选择排序
+
+```js
+/*
+ 寻找第i小的数的位置，放到i位置上
+ */
+function SelectionSort (arr) {
+		const length = arr.length
+		for (let i = 0; i < length; i++ ) {
+				let minIndex= i
+				for (let j = i + 1; j < length; j++) {
+						minIndex = arr[minIndex] <= arr[j] ? minIndex : j
+				}
+				if (minIndex !== i) {
+						const temp = arr[i]
+						arr[i] = arr[minIndex]
+						arr[minIndex] = temp
+
+				}
+		}
+		return arr
+}
+```
+
+### (4).插入排序
+
+```js
+function InsertionSort (arr) {
+		const length = arr.length
+		for (let i = 1; i < length; i++) {
+				const temp = arr[i]
+				let j
+				for (j = i - 1; j >= 0 && temp < arr[j]; j--) {
+						arr[j+1] = arr[j]
+				}
+				arr[j+1] = temp
+		}
+		return arr
+}
+```
+
+### (5).希尔排序
+
+插入排序的改进版。对间隔 gap 为一组的数进行插入排序
+
+
+```js
+function ShellSort (arr) {
+		const length = arr.length
+		let gap = Math.floor(length)
+		while (gap) {
+				for (let i = gap; i < length; i++) {
+						const temp = arr[i]
+						let j
+						for (j = i - gap; j >= 0 && temp < arr[j]; j = j - gap) {
+								arr[j + gap] = arr[j]
+						}
+						arr[j + gap] = temp
+				}
+				gap = Math.floor(gap / 2)
+		}
+		return arr
+}
+```
+
+### (6).归并排序
+
+```js
+function MergeSort (arr, low, high) {
+		const length = arr.length
+		if (low === high) {
+				return arr[low]
+		}
+		const mid = Math.floor((low + high)/2)
+		MergeSort(arr, low, mid)
+		MergeSort(arr, mid + 1, high)
+		merge(arr, low, high)
+		return arr
+
+}
+
+function merge (arr, low, high) {
+		const mid = Math.floor((low + high)/2)
+		let left = low
+		let right = mid + 1
+		const result = []
+		while (left <= mid && right <= high) {
+				if (arr[left] <= arr[right]) {
+						result.push(arr[left++])
+				} else {
+						result.push(arr[right++])
+				}
+		}
+		while (left <= mid) {
+				result.push(arr[left++])
+		}
+		while (right <= high) {
+				result.push(arr[right++])
+		}
+
+		arr.splice(low, high-low+1, ...result)
+}
+
+const test = [2, 34, 452,3,5, 785, 32, 345, 567, 322,5]
+
+console.log(MergeSort(test, 0, test.length - 1))
+```
+
+### (7).堆排序
+
+```js
+function HeapSort (arr) {
+		const length = arr.length
+
+		// 调整初始堆，调整完其实也确定了最大值
+		// 但此时最大值是在 arr[0] 中
+		for (let i = Math.floor(length/2) - 1; i >= 0; i--) {
+				adjustHeap(arr, i, length)
+		}
+
+		// 把 arr[0](最大值)换到后面
+		for (let i = length - 1; i >=0; i--) {
+				const temp = arr[0]
+				arr[0] = arr[i]
+				arr[i] = temp
+				adjustHeap(arr, 0, i)
+		}
+
+		return arr
+}
+
+// size 是还需要调整的堆的大小
+// 随着一个个最大值的确定，size 会越来越小
+function adjustHeap (arr, position, size) {
+		const left = position * 2 + 1
+		const right = left + 1
+		let maxIndex = position
+		if (left < size && arr[left] > arr[maxIndex]) {
+				maxIndex = left
+		}
+		if (right < size && arr[right] > arr[maxIndex]) {
+				maxIndex = right
+		}
+		if (maxIndex !== position) {
+				const temp = arr[position]
+				arr[position] = arr[maxIndex]
+				arr[maxIndex] = temp
+				adjustHeap(arr, maxIndex, size)
+		}
+		return arr
+}
+```
+
+## 12、all
+
+如果数组所有元素满足函数条件，则返回true。调用时，如果省略第二个参数，则默认传递布尔值。
+
+```js
+const all = (arr, fn = Boolean) => arr.every(fn);
+
+all([4, 2, 3], x => x > 1); // true
+all([1, 2, 3]); // true
+```
+
+## 13、allEqual
+
+判断数组中的元素是否都相等
+
+```js
+const allEqual = arr => arr.every(val => val === arr[0]);
+
+allEqual([1, 2, 3, 4, 5, 6]); // false
+allEqual([1, 1, 1, 1]); // true
+```
+
+## 14、approximatelyEqual
+此代码示例检查两个数字是否近似相等，差异值可以通过传参的形式进行设置
+```js
+const approximatelyEqual = (v1, v2, epsilon = 0.001) => Math.abs(v1 - v2) < epsilon;
+
+approximatelyEqual(Math.PI / 2.0, 1.5708); // true
 ```

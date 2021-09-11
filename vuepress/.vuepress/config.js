@@ -80,7 +80,7 @@ function renderNav() {
 			link: "/guides/Node/"
 		},
 		{
-			text: "面试",
+			text: "笔记",
 			link: "/guides/interview/"
 		},
 		{
@@ -130,9 +130,9 @@ function renderSiderBar() {
 					children: readFileList('interview/post')
 				},
 				{
-					title: '面经博客',
+					title: '笔记',
 					collapsable: false,
-					children: readFileList('interview/1')
+					children: readFileList('interview/note')
 				}
 			],
 			'/guides/codeSnippet': [
