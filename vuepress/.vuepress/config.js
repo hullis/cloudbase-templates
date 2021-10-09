@@ -60,6 +60,10 @@ module.exports = ctx => ({
 function renderNav() {
 	return [
 		{
+			text: "导航",
+			link: "/guides/bookmarks/"
+		},
+		{
 			text: "指南",
 			link: "/guides/Home/"
 		},
@@ -78,6 +82,10 @@ function renderNav() {
 		{
 			text: "Node",
 			link: "/guides/Node/"
+		},
+		{
+			text: "VUE",
+			link: "/guides/VUE/"
 		},
 		{
 			text: "笔记",
@@ -123,6 +131,20 @@ function renderSiderBar() {
 					children: readFileList('JavaScript/2')
 				},
 			],
+			'/guides/VUE': [
+				{
+					title: 'post',
+					collapsable: false,
+					children: readFileList('VUE/post')
+				}
+			],
+			'/guides/Node': [
+				{
+					title: 'base',
+					collapsable: false,
+					children: readFileList('Node/base')
+				}
+			],
 			'/guides/interview': [
 				{
 					title: '面试题',
@@ -141,7 +163,14 @@ function renderSiderBar() {
 					collapsable: false,
 					children: readFileList('codeSnippet/post')
 				}
-			]
+			],
+			'/guides/bookmarks': [
+				{
+					title: 'base',
+					collapsable: false,
+					children: readFileList('bookmarks/base')
+				}
+			],
 		}
 	)
 }
