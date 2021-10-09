@@ -6,7 +6,7 @@ const git = require('simple-git')
 /**
  * 初始化git
  */
-let gitEntity = git("F:/www/my/cloudbase-templates")
+let gitEntity = git("D:/www/note/cloudbase-templates")
 
 // 提交
 upDataFile()
