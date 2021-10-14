@@ -1,16 +1,16 @@
 ---
 home: true
-sideBar: true
-heroImage: /imgs/logo.png
-actionText: 开始 →
-actionLink: /Note/
+heroImage: logo.png
+actionText: 开始. →
+actionLink: /guides/Home/
 features:
-- title: 📒笔记
-  details: 学而不思则罔，思而不学则殆。
-- title: 📚备忘
-  details: 好记性不如烂键盘。
-- title: 🧰工具
-  details: 工欲善其事，必先利其器。
+- title: 简洁至上
+  details: 追求重点和难点,剔除陈旧的知识。
+- title: 清晰易懂
+  details: 将复杂的问题一一拆解。
+- title: 日常问题
+  details: 记录工作和学习中遇到的问题。
+footer: MIT Licensed | Copyright © 皖ICP备2020018003号
 ---
 
 <style>
