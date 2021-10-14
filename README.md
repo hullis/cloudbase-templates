@@ -1,18 +1,3 @@
-
-# My Blog
-
-一个前端开发的自我修养
-
-![note](https://forguo-1302175274.file.myqcloud.com/assets/imgs/logo.png)
-
-[![Blog CI](https://github.com/wforguo/blog/actions/workflows/ci.yml/badge.svg)](https://github.com/wforguo/blog/actions/workflows/ci.yml)
-[![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/TencentCloudBase/cloudbase-action?label=cloudBaseAction&logo=github)](https://github.com/marketplace/actions/tencent-cloudbase-github-action) 
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen?logo=github)](http://commitizen.github.io/cz-cli/)
-
-## 访问
-
-[forguo.cn](https://forguo.cn)
-
 ## 运行
 
 ```shell script
@@ -40,7 +25,3 @@
 ### Tencent CloudBase Github Action
 
 [CloudBaseAction](https://github.com/TencentCloudBase/cloudbase-action)
-
-## 统计
-
-[百度统计](https://tongji.baidu.com/web/welcome/login)

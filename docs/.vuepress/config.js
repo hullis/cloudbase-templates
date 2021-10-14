@@ -1,36 +1,29 @@
 module.exports = {
-    title: '个人学习笔记',
-    port: 10010,
-    base: '/',
-    description: '一个前端工程师的自我修养',
-	    markdown: {
+        title: "我的收藏",
+        description: "基于云开发的 VuePress 网站应用示例",
+        port: 9027,
+        base: '/',
+        markdown: {
         lineNumbers: true
     },
     head: [
-        ['meta', { name: 'keywords', content: `web前端个人简历,forguo,wforguo,web前端,个人简历,前端工程师,F2E,前端开发,魏国,一个前端工程师的自我修养` }],
-        ['meta', { name: 'description', content: `前端个人简历|F2E|web前端个人简历|一个前端工程师的自我修养|魏国|forguo|wforguo` }],
-        ['meta', { name: 'author', content: `魏国,forguo,wforguo,卫国没有周` }],
-        ['meta', { name: 'baidu-site-verification', content: `code-bakUos2v8l` }],
-        ['meta', { name: 'google-site-verification', content: `9aVJNYlDCl0rCI1akpdSqg9Xwr47KJrVWSXktSsfwKE` }],
-        ['link', { rel: 'icon', href: `/imgs/favicon.ico` }],
-        ['link', { rel: 'manifest', href: `/manifest.json` }],
-        ['script', {}, `
-            var _hmt = _hmt || [];
-            (function() {
-              var hm = document.createElement("script");
-              hm.src = "https://hm.baidu.com/hm.js?2788f1f4f01e060d6d892f4bbd5b74d4";
-              var s = document.getElementsByTagName("script")[0];
-              s.parentNode.insertBefore(hm, s);
-            })();
-        `]
+        ['link', { rel: 'icon', href: `/logo.png` }],
+        ['link', { rel: 'manifest', href: '/manifest.json' }],
+        ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+        ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
+        ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black-translucent' }],
+        ['link', { rel: 'apple-touch-icon', href: `/icons/apple-touch-icon-152x152.png` }],
+        ['link', { rel: 'mask-icon', href: '/icons/safari-pinned-tab.svg', color: '#3eaf7c' }],
+        ['meta', { name: 'msapplication-TileImage', content: '/icons/msapplication-icon-144x144.png' }],
+        ['meta', { name: 'msapplication-TileColor', content: '#000000' }],
+        ['meta', { name: 'apple-mobile-web-app-status-bar-style',  }]
     ],
     themeConfig: {
-        lastUpdated: '更新日期',
+        repo: 'hullis/cloudbase-templates',
+		lastUpdated: 'Last Updated',
         nav: [
             { text: '笔记', link: '/Note/' },
             { text: '工具', link: '/Tool/' },
-            { text: 'CSDN', link: 'https://blog.csdn.net/WEIGUO19951107' },
-            { text: 'GitHub', link: 'https://github.com/wforguo' },
         ],
         sidebar: {
             '/Note/': [
