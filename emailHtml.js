@@ -9,11 +9,10 @@ function fn() {
     </head>
     <body>
       <div>
-        <!-- 天气 -->
         <div>
           <p>
             <b>部署提醒:</b>
-            <span>cloudbase-templates项目已成功部署云开发</span>
+            <span>cloudbase-templates项目已成功部署云开发，访问地址：https://www.hullis.cn/vuepress/</span>
           </p>
         </div>
       </div>
