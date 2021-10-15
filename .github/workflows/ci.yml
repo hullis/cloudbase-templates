@@ -34,6 +34,8 @@ jobs:
             # 安装项目依赖
             - name: Install Dependencies
               run: npm install
+              env:
+                EMAILPASS: ${{secrets.EMAILPASS}}
             # 发布到云开发
             - name: Deploy to Tencent CloudBase
               uses: TencentCloudBase/cloudbase-action@v2
