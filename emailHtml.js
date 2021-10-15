@@ -12,8 +12,8 @@ function fn() {
         <!-- 天气 -->
         <div>
           <p>
-            <b>push提醒:</b>
-            <span>cloudbase-templates项目正在部署云开发</span>
+            <b>部署提醒:</b>
+            <span>cloudbase-templates项目已成功部署云开发</span>
           </p>
         </div>
       </div>

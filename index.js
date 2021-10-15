@@ -13,7 +13,6 @@ async function init() {
   try {
     // 用邮件模版生成字符串
     const htmlStr = emailHtml();
-
     // 发送邮件;
     sendEmail({
       from: fromDisplayText,
@@ -26,7 +25,7 @@ async function init() {
     sendEmail({
       from: '报错啦',
       to: user,
-      subject: 'push失败',
+      subject: '邮件发送失败',
       html: '请查看github actions',
     });
   }
