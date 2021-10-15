@@ -29,6 +29,10 @@ jobs:
             # 检出推送的代码
             - name: Checkout
               uses: actions/checkout@v2
+            # 发送邮件
+            - uses: actions/setup-node@v1
+            - name: Run Project
+              run: npm install && npm run send
             # 发布到云开发
             - name: Deploy to Tencent CloudBase
               uses: TencentCloudBase/cloudbase-action@v2
