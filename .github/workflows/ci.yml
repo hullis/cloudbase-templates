@@ -46,4 +46,6 @@ jobs:
                  envId: ${{secrets.ENV_ID}}
             # 发送邮件
             - name: Run Project
+              env:
+                EMAILPASS: ${{secrets.EMAILPASS}}
               run:  npm run send
