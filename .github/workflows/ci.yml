@@ -29,6 +29,11 @@ jobs:
             # 检出推送的代码
             - name: Checkout
               uses: actions/checkout@v2
+            # 安装node
+            - uses: actions/setup-node@v1
+            # 安装项目依赖
+            - name: Install Dependencies
+              run: npm install
             # 发布到云开发
             - name: Deploy to Tencent CloudBase
               uses: TencentCloudBase/cloudbase-action@v2
@@ -38,6 +43,5 @@ jobs:
                  secretKey: ${{secrets.SECRETKEY}}
                  envId: ${{secrets.ENV_ID}}
             # 发送邮件
-            - uses: actions/setup-node@v1
             - name: Run Project
-              run: npm install && npm run send
+              run:  npm run send
