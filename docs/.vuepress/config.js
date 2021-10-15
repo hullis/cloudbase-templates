@@ -3,7 +3,7 @@ const readFileList = require("../build.js");
 module.exports = ctx => ({
 	title: "我的收藏",
 	description: "基于云开发的 VuePress 网站应用示例",
-	base: "/vuepress/",
+	base: "/docs/",
 	head:[
 			['link', { rel: 'icon', href: `/logo.png` }],
 			['link', { rel: 'manifest', href: '/manifest.json' }],
