@@ -46,10 +46,10 @@ module.exports = ctx => ({
 });
 function renderNav() {
 	return [
-		// {
-		// 	text: "导航",
-		// 	link: "/guides/bookmarks/"
-		// },
+		{
+			text: "导航",
+			link: "/guides/bookmarks/"
+		},
 		{
 			text: "指南",
 			link: "/guides/Home/"
@@ -66,10 +66,10 @@ function renderNav() {
 			text: "JavaScript",
 			link: "/guides/JavaScript/"
 		},
-		// {
-		// 	text: "Node",
-		// 	link: "/guides/Node/"
-		// },
+		{
+			text: "Node",
+			link: "/guides/Node/"
+		},
 		{
 			text: "VUE",
 			link: "/guides/VUE/"
@@ -80,7 +80,7 @@ function renderNav() {
 		},
 		{
 			text: "代码片段",
-			link: "/guides/codeSnippet/"
+			link: "/guides/codeSnippet/post/main"
 		},
 	]
 }
@@ -113,7 +113,7 @@ function renderSiderBar() {
 					children: readFileList('JavaScript/1')
 				},
 				{
-					title: 'JavaScript',
+					title: '进阶篇',
 					collapsable: false,
 					children: readFileList('JavaScript/2')
 				},
@@ -125,13 +125,13 @@ function renderSiderBar() {
 					children: readFileList('VUE/post')
 				}
 			],
-			// '/guides/Node': [
-			// 	{
-			// 		title: 'base',
-			// 		collapsable: false,
-			// 		children: readFileList('Node/base')
-			// 	}
-			// ],
+			'/guides/Node': [
+				{
+					title: '基础',
+					collapsable: false,
+					children: readFileList('Node/base')
+				}
+			],
 			'/guides/interview': [
 				{
 					title: '面试题',
@@ -151,13 +151,6 @@ function renderSiderBar() {
 					children: readFileList('codeSnippet/post')
 				}
 			],
-			// '/guides/bookmarks': [
-			// 	{
-			// 		title: 'base',
-			// 		collapsable: false,
-			// 		children: readFileList('bookmarks/base')
-			// 	}
-			// ],
 		}
 	)
 }

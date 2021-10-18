@@ -8,7 +8,7 @@
     },
     "scripts": {
         "send": "node index.js",
-        "serve": "vuepress dev --temp .temp",
+        "serve": "vuepress dev docs --temp .temp",
         "dev": "vuepress dev docs",
         "start": "npm run dev",
         "build": "vuepress build docs",
