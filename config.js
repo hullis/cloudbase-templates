@@ -5,4 +5,11 @@ module.exports = {
   user: '1025554991@qq.com', // 发送者邮箱
   pass: process.env.EMAILPASS, // 发送者邮箱MTP协议密码
   to: '420378410@qq.com', // 发送到谁，填邮箱
+  // 书签文件
+  bookmarksFile: './bookmarks/index.html',
+  // 生成目录
+  mdFilePath: './docs/guides/bookmarks/post/',
+  READMEPATH: './docs/guides/bookmarks/',
+  // 排除目录
+  unlessPath: ['OXO', 'OYO']
 }

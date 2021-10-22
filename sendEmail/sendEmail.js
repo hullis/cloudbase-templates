@@ -1,5 +1,5 @@
 const nodemailer = require('nodemailer');
-const { user, pass } = require('./config');
+const { user, pass } = require('../config');
 
 const sendMail = async (data) => {
   let transporter = nodemailer.createTransport({

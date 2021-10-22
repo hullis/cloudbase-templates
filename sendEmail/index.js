@@ -7,7 +7,7 @@ const {
   fromDisplaySubText,
   user,
   to,
-} = require('./config');
+} = require('../config');
 
 async function init() {
   try {

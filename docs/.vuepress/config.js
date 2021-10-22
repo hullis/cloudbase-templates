@@ -67,6 +67,10 @@ function renderNav() {
 			link: "/guides/JavaScript/"
 		},
 		{
+			text: "小程序",
+			link: "/guides/miniProgram/"
+		},
+		{
 			text: "Node",
 			link: "/guides/Node/"
 		},
@@ -87,6 +91,13 @@ function renderNav() {
 function renderSiderBar() {
 	return (
 		{
+			'/guides/bookmarks': [
+				{
+					title: '书签导航',
+					collapsable: false,
+					children: readFileList('bookmarks/post')
+				}
+			],
 			'/guides/HTML': [
 				{
 					title: 'HTML基础',
@@ -120,7 +131,7 @@ function renderSiderBar() {
 			],
 			'/guides/VUE': [
 				{
-					title: 'post',
+					title: 'VUE',
 					collapsable: false,
 					children: readFileList('VUE/post')
 				}
@@ -149,6 +160,13 @@ function renderSiderBar() {
 					title: '代码片段',
 					collapsable: false,
 					children: readFileList('codeSnippet/post')
+				}
+			],
+			'/guides/miniProgram': [
+				{
+					title: '微信小程序',
+					collapsable: false,
+					children: readFileList('miniProgram/post')
 				}
 			],
 		}

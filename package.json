@@ -7,7 +7,8 @@
         "doc": "docs"
     },
     "scripts": {
-        "send": "node index.js",
+        "send": "node ./sendEmail/index.js",
+        "addMD": "node ./bookmarks/bookmark2md.js",
         "serve": "vuepress dev docs --temp .temp",
         "dev": "vuepress dev docs",
         "start": "npm run dev",
@@ -51,6 +52,8 @@
         }
     },
     "dependencies": {
-        "vuepress-plugin-image": "^1.0.4"
+        "vuepress-plugin-image": "^1.0.4",
+        "cheerio": "^1.0.0-rc.2",
+        "fs": "0.0.1-security"
     }
 }
