@@ -66,10 +66,10 @@ function renderNav() {
 			text: "JavaScript",
 			link: "/guides/JavaScript/"
 		},
-		{
-			text: "小程序",
-			link: "/guides/miniProgram/"
-		},
+		// {
+		// 	text: "小程序",
+		// 	link: "/guides/miniProgram/"
+		// },
 		{
 			text: "Node",
 			link: "/guides/Node/"
@@ -162,13 +162,13 @@ function renderSiderBar() {
 					children: readFileList('codeSnippet/post')
 				}
 			],
-			'/guides/miniProgram': [
-				{
-					title: '微信小程序',
-					collapsable: false,
-					children: readFileList('miniProgram/post')
-				}
-			],
+			// '/guides/miniProgram': [
+			// 	{
+			// 		title: '微信小程序',
+			// 		collapsable: false,
+			// 		children: readFileList('miniProgram/post')
+			// 	}
+			// ],
 		}
 	)
 }
