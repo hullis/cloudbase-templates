@@ -5,7 +5,7 @@ on:
         branches:
             - master
         paths:
-            - '/version/README.md'
+            - 'version/README.md'
 
 
 # 触发构建动作
