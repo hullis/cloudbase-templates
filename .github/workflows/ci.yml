@@ -4,6 +4,9 @@ on:
     push:
         branches:
             - master
+        paths:
+            - '/version/README.md'
+
 
 # 触发构建动作
 #    push:
