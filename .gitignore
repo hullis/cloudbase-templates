@@ -2,6 +2,7 @@
 /.idea
 /.github
 /.temp
+/.history
 /docs/.vuepress/dist/
 .DS_Store
 node_modules
