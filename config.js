@@ -1,6 +1,6 @@
 // 配置信息
 module.exports = {
-  fromDisplayText: 'Github', // 收件箱展示的来件人名字
+  fromDisplayText: 'Githubt通知', // 收件箱展示的来件人名字
   fromDisplaySubText: 'cloudbase-templates项目已成功部署腾讯云', // 收件箱展示的次级标题
   user: '1025554991@qq.com', // 发送者邮箱
   pass: process.env.EMAILPASS, // 发送者邮箱MTP协议密码
@@ -11,5 +11,5 @@ module.exports = {
   mdFilePath: './docs/guides/bookmarks/post/',
   READMEPATH: './docs/guides/bookmarks/',
   // 排除目录
-  unlessPath: ['OXO', 'OYO']
+  unlessPath: []
 }
