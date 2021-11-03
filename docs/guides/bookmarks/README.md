@@ -1,6 +1,6 @@
 
 
-更新时间：2021-10-22 16:51:20
+更新时间：2021-11-03 16:43
 
 # 前端框架
 
@@ -142,7 +142,7 @@
 
 - [BAT实习知识图](https://segmentfault.com/a/1190000013851657) — 2018-09-17 12:33 
 
-- [从输入URL到页面加载的过程？如何由一道题完善自己的前端知识体系]](https://segmentfault.com/a/1190000013662126) — 2018-09-17 12:33 
+- [从输入URL到页面加载的过程](https://segmentfault.com/a/1190000013662126) — 2018-09-17 12:33 
 
 - [深拷贝的终极探索（99%的人都不知道） - 颜海镜 - SegmentFault 思否](https://segmentfault.com/a/1190000016672263) — 2018-10-14 19:18 
 
@@ -430,6 +430,10 @@
 
 - [Quasar框架介绍 | Quasar Framework](http://www.quasarchs.com/introduction-to-quasar) — 2020-05-22 17:37 
 
+- [NutUI - 移动端 Vue2、Vue3 组件库](https://nutui.jd.com/#/) — 2021-10-26 14:21 
+
+- [TS财税票一体化平台V2.0](http://192.168.1.158:8008/ticket/#/setting/expenseSettings) — 2021-10-26 16:45 
+
 # 工具
 
 - [ip地址查询接口 · 免费天气api接口 · 看云](http://doc.tianqiapi.com/875681) — 2018-12-25 16:34 
@@ -676,6 +680,8 @@
 
 - [小程序](https://mp.weixin.qq.com/wxamp/index/index?token=1703748453&lang=zh_CN) — 2020-08-07 13:58 
 
+- [微信对话开放平台](https://openai.weixin.qq.com/) — 2021-10-20 13:29 
+
 ### 微信小程序
 
 - [jasondu/wxa-plugin-canvas: 小程序海报组件-生成朋友圈分享海报并生成图片](https://github.com/jasondu/wxa-plugin-canvas) — 2018-10-16 11:34 
@@ -731,6 +737,8 @@
 - [vuepress的使用](https://juejin.cn/post/6990718623484477447?from=main_page) — 2021-07-31 14:36 
 
 - [掘金 - 代码不止，掘金不停](https://juejin.cn/) — 2021-10-15 09:02 
+
+- [Vue 项目打包部署总结 - 掘金](https://juejin.cn/post/7019096577746665485) — 2021-10-19 18:06 
 
 ## 简书
 
@@ -805,6 +813,8 @@
 - [(1条消息) 利用GitHub Actions及云开发CloudBase自动化部署你的网站_这魏先森-forguo-CSDN博客](https://blog.csdn.net/WEIGUO19951107/article/details/120311722) — 2021-10-14 15:52 
 
 - [GItHub 工作流 Actions的使用 以前端项目为例_知无涯-CSDN博客](https://blog.csdn.net/github_35631540/article/details/107912095) — 2021-10-15 10:56 
+
+- [(3条消息) GitHub Actions 部署爬虫并定时发送邮件_深刻的博客-CSDN博客](https://blog.csdn.net/sculpta/article/details/104142607) — 2021-10-26 13:42 
 
 ## 思否
 
@@ -899,4 +909,246 @@
 - [极简插件](https://chrome.zzzmh.cn/#ext) — 2021-02-17 12:25 
 
 - [MAC之家](https://maczj.com/) — 2021-02-08 13:34 
+
+## uniapp
+
+- [uni-app官网](https://uniapp.dcloud.io/) — 2021-10-22 09:10 
+
+# 分类
+
+## JavaScript
+
+- [JavaScript 教程 | 通俗易懂的JavaScript教程](https://wangdoc.com/javascript/) — 2021-08-30 14:33 
+
+- [ES6 入门教程 | 通俗易懂的ES6入门教程](https://es6.ruanyifeng.com/) — 2021-08-30 14:34 
+
+- [JavaScript 30  |  使用原生JavaScript在30天内完成30个项目](https://javascript30.com/) — 2021-08-30 14:34 
+
+- [现代 JavaScript 教程 |  最近很流行的JavaScript教程](https://zh.javascript.info/) — 2021-08-30 14:34 
+
+- [Node.js学习指南 | 系统的Node.js学习教程和笔记系统整理](https://blog.poetries.top/node-learning-notes/) — 2021-08-30 14:36 
+
+- [JS 代码规范 | 优秀的 JS代码规范](https://github.com/ryanmcdermott/clean-code-javascript) — 2021-08-30 14:36 
+
+- [TypeScript 教程 | 通俗易懂的TypeScript教程](https://github.com/xcatliu/typescript-tutorial) — 2021-08-30 14:37 
+
+- [TypeScript 教程 |  最好的TypeScript 视频+图文教程](https://jspang.com/detailed?id=63) — 2021-08-30 17:38 
+
+## CSS样式
+
+- [CSS Tricks 效果大全 | CSS的各种效果实现 有很多动画效果](https://lhammer.cn/You-need-to-know-css/#/zh-cn/) — 2021-08-30 14:38 
+
+- [CSS Inspiration |  CSS灵感的诞生地  我每天都会看一看的网站](https://github.com/chokcoco/CSS-Inspiration) — 2021-08-30 14:40 
+
+- [ CSS 常用样式 |  有很多常用的CSS样式](https://github.com/QiShaoXuan/css_tricks) — 2021-08-30 14:52 
+
+- [Animista | CSS动画库  主打按需定制CSS动画效果](https://animista.net/) — 2021-08-30 14:53 
+
+- [SpinKit | CSS代码片段  汇集了各种加载效果的CSS代码片段](https://tobiasahlin.com/spinkit/) — 2021-08-30 14:55 
+
+- [CSS Minifier | 在线CSS代码简化/压缩工具](https://cssminifier.com/) — 2021-08-30 14:55 
+
+- [Sass: Sass 文档 | Sass 中文网  成熟、稳定、强大的CSS扩展语言](https://sass.bootcss.com/documentation) — 2021-08-30 14:56 
+
+- [Less 快速入门 | Less.js 中文文档 将CSS赋予了动态语言特性的样式语言](https://less.bootcss.com/) — 2021-08-30 14:57 
+
+- [stylus | CSS扩展  富有变现里、动态、健壮的CSS](https://stylus-lang.com/) — 2021-08-30 14:59 
+
+## 算法数据
+
+- [JavaScript 算法与数据结构 | 多种基于JavaScript的算法与数据结构](http://github.com/trekhleb/javascript-algorithms) — 2021-08-30 15:01 
+
+- [leetcode 解题之路 |  私藏LeetCode解题攻略 ](https://github.com/azl397985856/leetcode) — 2021-08-30 15:03 
+
+- [五分钟学算法 |  每天拿出五分钟  学学算法  比如上个厕所就学了](https://github.com/MisterBooo/LeetCodeAnimation) — 2021-08-30 15:03 
+
+- [LeetCode 解题的思路 |  用动画的形式呈现LeetCode的解题思路](https://github.com/MisterBooo/LeetCodeAnimation) — 2021-08-30 15:04 
+
+- [数据结构与算法项目推荐 | Github上170K+Star的前端学习数据结构和算法题目](https://github.com/biaochenxuying/blog/issues/43) — 2021-08-30 15:05 
+
+- [JavaScript  十大经典排序算法 | JavaScript排序必会题目  作者功力很深 值得学习](https://github.com/biaochenxuying/blog/issues/42) — 2021-08-30 15:06 
+
+- [算法可视化工具 |  用可视化工具和交互方式 让你从代码中可视化算法](https://github.com/algorithm-visualizer/algorithm-visualizer) — 2021-08-30 15:06 
+
+- [算法可视化来源](https://visualgo.net/en) — 2021-08-30 15:07 
+
+- [算法的工作方式 | 变量和操作的可视化表示 增强了控制流和实际源代码](https://github.com/skidding/illustrated-algorithms) — 2021-08-30 15:09 
+
+## 前端面试
+
+- [前端面试常考问题整理 |  按模块和知识点分类  ](https://blog.poetries.top/FE-Interview-Questions/) — 2021-08-30 15:11 
+
+- [前端开发面试题](https://github.com/markyun/My-blog/tree/master/Front-end-Developer-Questions) — 2021-08-30 15:12 
+
+- [WEB前端面试宝典](https://github.com/h5bp/Front-end-Developer-Interview-Questions/) — 2021-08-30 15:12 
+
+- [掘金前端面试题合集](https://github.com/shfshanyue/blog/blob/master/post/juejin-interview.md) — 2021-08-30 15:13 
+
+- [前端面试图谱](https://yuchengkai.cn/) — 2021-08-30 15:14 
+
+- [前端面试开源项目汇总 | Github上100K+ Star 的前端面试开源项目汇总](https://github.com/biaochenxuying/blog/issues/47) — 2021-08-30 15:14 
+
+## 技术社区
+
+- [GitHub  |  高质量内容创作和分享平台](https://github.com/) — 2021-08-30 15:16 
+
+- [stackoverflow |一个回答技术问题的网站](https://stackoverflow.com/) — 2021-08-30 15:17 
+
+- [掘金 | 国内的很多优质前端文章都掘金](https://juejin.cn/) — 2021-08-30 15:18 
+
+- [博客园  | 一个很纯粹的技术博客平台](https://www.cnblogs.com/) — 2021-08-30 15:18 
+
+- [知乎 |  很多程序人喜欢泡在知乎](https://www.zhihu.com/) — 2021-08-30 15:20 
+
+- [CSDN  | 老牌社区  程序员必上的一个社区](https://www.csdn.net/) — 2021-08-30 15:22 
+
+- [v2ex  | 程序员分享和探索的社区](https://www.v2ex.com/) — 2021-08-30 15:24 
+
+- [segmentfault  | 低调技术博客社区](https://segmentfault.com/) — 2021-08-30 15:24 
+
+- [Node.js 中文社区 |  node专业中文社区](https://cnodejs.org/) — 2021-08-30 15:26 
+
+- [博客杂志站点 | 一个 web 技术类的博客杂志站点](https://www.smashingmagazine.com/) — 2021-08-30 15:27 
+
+- [JS 技术的网站 | 每天推出一个JS技巧的网站](https://www.jstips.co/) — 2021-08-30 15:28 
+
+- [W3Cplus | 推广国内行业的技术博客](https://www.w3cplus.com/) — 2021-08-30 15:31 
+
+- [印记中文 | 最权威的技术中文文档社区](https://docschina.org/) — 2021-08-30 15:32 
+
+## 前端博客
+
+- [技术胖博客 |  专注前端 每年100集免费前端视频](https://jspang.com/) — 2021-08-30 15:33 
+
+- [腾讯Alloy Team  | 腾讯前端博客 每天必看](http://www.alloyteam.com/) — 2021-08-30 15:36 
+
+- [腾讯用户体验博客 | 专注于前端用户体验](https://isux.tencent.com/) — 2021-08-30 15:38 
+
+- [淘系前端博客 |  淘宝前端博客 代表中国最强前端实力](https://fed.taobao.org/) — 2021-08-30 15:40 
+
+- [京东凹凸实验室  |  京东前端技术博客](https://aotu.io/) — 2021-08-30 15:41 
+
+- [饿了么前端博客  |  知乎上的最强前端博客](https://zhuanlan.zhihu.com/ElemeFE) — 2021-08-30 15:42 
+
+- [百度前端博客  |  百度前端团队旗下博客](http://fex.baidu.com/) — 2021-08-30 15:43 
+
+- [360奇舞团  |  360公司前端团队](https://75.team/) — 2021-08-30 15:45 
+
+- [美团技术博客  |  美团技术团队博客](https://tech.meituan.com/) — 2021-08-30 15:46 
+
+## 构建工具
+
+- [NPM |  包管理 和 项目构建工具](https://www.npmjs.com/) — 2021-08-30 15:48 
+
+- [webpack  | 前端最流行的项目构建工具](https://webpack.js.org/) — 2021-08-30 15:48 
+
+- [Yarn  |  后起之秀 优秀的包管理和构建工具](https://yarnpkg.com/) — 2021-08-30 15:50 
+
+- [Gulp  |  老牌构建工具](https://www.gulpjs.com.cn/) — 2021-08-30 15:51 
+
+- [Babel  | ES6构建转换工具](https://babeljs.io/) — 2021-08-30 15:52 
+
+- [ESLint  | 可组装的JavaScript和JSX检查工具](https://cn.eslint.org/) — 2021-08-30 15:54 
+
+- [PostCSS | 用JavaScript转换CSS代码的工具 ](https://www.postcss.com.cn/) — 2021-08-30 15:55 
+
+## 部署工具
+
+- [Github Page  | Github提供的免费静态网站托管服务](https://pages.github.com/) — 2021-08-30 15:59 
+
+- [Netlify  |  30秒内部署你的网站](https://www.netlify.com/) — 2021-08-30 15:59 
+
+- [Vercel  |  快速部署你的网站 国外很流行](https://vercel.com/) — 2021-08-30 16:00 
+
+- [Surge  |  一个命令部署你的网站](https://surge.sh/) — 2021-08-30 16:01 
+
+- [Heroku  |  运动构建 、 运行你的网站和应用](https://www.heroku.com/) — 2021-08-30 16:01 
+
+## 静态站点搭建
+
+- [Hexo  |  最流行的静态博客程序 Markdown编写 生成静态站点](https://hexo.io/zh-cn/) — 2021-08-30 16:04 
+
+- [VuePress  |  Vue驱动的静态网站生成器](https://www.vuepress.cn/) — 2021-08-30 16:04 
+
+- [GitBook  | 现代化的文档平台，支持团队协作](https://www.gitbook.com/) — 2021-08-30 16:06 
+
+## 前端代码规范
+
+- [Tgideas | 腾讯前端代码规范 值得参考](https://tgideas.qq.com/doc/index.html) — 2021-08-30 16:16 
+
+- [京东  |  京东前端代码规范文档 分类详细](https://guide.aotu.io/index.html) — 2021-08-30 16:17 
+
+- [Bootstrap编码规范  |  适合个人和小团队使用的代码规范 不复杂](https://codeguide.bootcss.com/) — 2021-08-30 16:19 
+
+- [ES6 编程风格  | 阮一峰编写的ES6代码规范  值得每个人阅读并参考](https://es6.ruanyifeng.com/#docs/style) — 2021-08-30 16:21 
+
+- [Airbnb  前端代码规范  |  国外企业的前端代码规范](https://github.com/airbnb/javascript) — 2021-08-30 16:22 
+
+- [ESLint  |  代码规范检查和格式化工具](https://eslint.org/) — 2021-08-30 16:24 
+
+- [Prettier  | VSCode 最热门的代码格式化工具  让你写出漂亮的代码](https://prettier.io/) — 2021-08-30 16:26 
+
+## 调试抓包
+
+- [Whistle  |  代理抓包工具  我一直在用的工具 很好很强大](https://wproxy.org/whistle/) — 2021-08-30 16:31 
+
+- [Fiddler  |  使用人数最多的抓包工具](https://www.telerik.com/fiddler) — 2021-08-30 16:33 
+
+## 在线工具
+
+- [CodePen  |  前端在线测试和演示工具  国外站点](https://codepen.io/) — 2021-08-30 16:39 
+
+- [Can  I  use |  Web前端兼容性列表](https://caniuse.com/) — 2021-08-30 16:48 
+
+- [TinyPNG  |  PNG/JPG 图片在线压缩工具](https://tinypng.com/) — 2021-08-30 16:50 
+
+- [CNZZ |  老牌站点统计工具  5年前国内站长必上网站](https://www.umeng.com/) — 2021-08-30 16:56 
+
+- [web.dev  |  评测网站性能  基于Lighthouse](https://web.dev/measure/) — 2021-08-30 16:58 
+
+- [Shape Divider  | 定制各种形状SVG的工具](https://www.shapedivider.app/) — 2021-08-30 17:00 
+
+- [GTmetrix  |  网页性能在线分析工具](https://gtmetrix.com/) — 2021-08-30 17:01 
+
+- [Carbon  |  代码转图片工具  ](https://carbon.now.sh/) — 2021-08-30 17:02 
+
+- [Wappalyzer  |  检测某个网站的技术栈](https://www.wappalyzer.com/) — 2021-08-30 17:03 
+
+- [CODEIF | 变量方法起名工具  人工智能加持](https://unbug.github.io/codelf) — 2021-08-31 11:06 
+
+- [ tool.lu  |  程序员在线工具大全 ](https://tool.lu/) — 2021-08-31 11:08 
+
+## 开发工具
+
+- [VSCode  |  前端最流行的编辑器](https://code.visualstudio.com/) — 2021-08-30 17:08 
+
+- [Sublime Text  |  轻量级代码编辑工具 曾经我的最爱](https://www.sublimetext.com/) — 2021-08-30 17:11 
+
+- [WebStom |  忠爱粉最多的编辑器 ](https://www.jetbrains.com/webstorm/) — 2021-08-30 17:12 
+
+- [Atom  |   用的人很多  我却不喜欢的编辑器](https://atom.io/) — 2021-08-30 17:15 
+
+- [typora |  程序人Mrakdown笔记  一直在用的笔记工具](https://www.typora.io/) — 2021-08-31 11:16 
+
+## 开发者大会
+
+- [Vue.js开发者大会 |  前端人必须关注的前端大会](https://fequan.com/) — 2021-08-30 17:16 
+
+- [中国JS开发者大会  |  公司每年必组织参加的技术大会](https://jsconfchina.com/) — 2021-08-30 17:18 
+
+- [CSS开发者大会 |  提高CSS技术的开发者大会  打开视野 面向世界](https://css.w3ctech.com/) — 2021-08-30 17:20 
+
+- [D2前端开发者大会 |  阿里组织的大会 可以看直播  ](https://www.alibabaf2e.com/) — 2021-08-30 17:21 
+
+## WEB图标
+
+- [Font Awesome  |  网站开发最流行的图标集](http://www.fontawesome.com.cn/) — 2021-08-30 17:24 
+
+- [Feather |  简洁美观的开源图标](https://feathericons.com/) — 2021-08-30 17:26 
+
+- [Material  Design Icons  |  轻快、精美的符号图标](https://material.io/resources/icons/) — 2021-08-30 17:27 
+
+- [Tabler Icons | 681枚可定制的开源SVG图标](https://tablericons.com/) — 2021-08-30 17:28 
+
+- [Simple Icons  |  常见品牌的SVG图标](https://simpleicons.org/) — 2021-08-30 17:29 
 
