@@ -40,9 +40,9 @@ module.exports = ctx => ({
 			after: '</UpgradePath>',
 		}],
 	],
-  // extraWatchFiles: [
-  //   '.vuepress/sidebar.js',
-  // ]
+  extraWatchFiles: [
+    './config.js',
+  ]
 });
 function renderNav() {
 	return [
