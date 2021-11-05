@@ -114,7 +114,7 @@ function renderSiderBar() {
 				{
 					title: 'CSS基础',
 					collapsable: false,
-					children: readFileList('CSS/post')
+					children: readFileList('CSS/post/basic')
 				}
 			],
 			'/guides/JavaScript': [
