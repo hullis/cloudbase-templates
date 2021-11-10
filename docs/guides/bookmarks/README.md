@@ -1,6 +1,6 @@
 
 
-更新时间：2021-11-03 16:43
+更新时间：2021-11-09 09:30
 
 # 前端框架
 
@@ -57,6 +57,8 @@
 - [Vue图片浏览组件v-viewer，支持旋转、缩放、翻转等操作 | Mirari's Blog](https://mirari.cc/2017/08/27/Vue%E5%9B%BE%E7%89%87%E6%B5%8F%E8%A7%88%E7%BB%84%E4%BB%B6v-viewer%EF%BC%8C%E6%94%AF%E6%8C%81%E6%97%8B%E8%BD%AC%E3%80%81%E7%BC%A9%E6%94%BE%E3%80%81%E7%BF%BB%E8%BD%AC%E7%AD%89%E6%93%8D%E4%BD%9C/) — 2021-04-01 10:03 
 
 - [介绍 | Vue3中文文档 - vuejs](https://vue3js.cn/docs/zh/guide/migration/introduction.html) — 2021-03-09 08:59 
+
+- [首页 - Vue Admin Pro](https://chu1204505056.gitee.io/admin-pro/#/index) — 2021-11-08 09:00 
 
 ### api
 
@@ -348,8 +350,6 @@
 
 ## 前端
 
-- [动态 - hullis (Hullis) - 码云 Gitee.com](https://gitee.com/Hullis/events) — 2019-04-03 15:56 
-
 - [The world’s leading software development platform · GitHub](https://github.com/) — 2019-04-03 15:56 
 
 - [Vue.js](https://cn.vuejs.org/) — 2019-02-22 13:51 
@@ -363,8 +363,6 @@
 - [WEB骇客 - HTML5, CSS3, WEB前端开发技术](http://www.webhek.com/) — 2019-04-03 15:57 
 
 - [网页模板,网站模板,DIV+CSS模板,企业网站模板下载-模板之家](http://www.cssmoban.com/) — 2019-04-03 15:57 
-
-- [www.angularjs.cn](http://www.angularjs.cn/) — 2019-04-03 15:57 
 
 - [前端开发博客-前端开发,前端博客](http://caibaojian.com/) — 2019-04-03 15:58 
 
@@ -431,8 +429,6 @@
 - [Quasar框架介绍 | Quasar Framework](http://www.quasarchs.com/introduction-to-quasar) — 2020-05-22 17:37 
 
 - [NutUI - 移动端 Vue2、Vue3 组件库](https://nutui.jd.com/#/) — 2021-10-26 14:21 
-
-- [TS财税票一体化平台V2.0](http://192.168.1.158:8008/ticket/#/setting/expenseSettings) — 2021-10-26 16:45 
 
 # 工具
 
@@ -524,8 +520,6 @@
 
 - [在线 JS/CSS/HTML 压缩](http://tool.oschina.net/jscompress?type=3) — 2018-11-22 17:57 
 
-- [markdown编辑器 - 在线工具](https://tool.lu/markdown/#_13) — 2021-09-08 17:35 
-
 - [在线文本差异对比,文本比对、文本比较工具](http://www.jq22.com/textDifference) — 2020-05-22 17:17 
 
 - [fastmock在线接口Mock平台](https://www.fastmock.site/#/) — 2020-05-20 16:05 
@@ -549,70 +543,6 @@
 - [JS的深浅复制，原来如此！ - 华为云开发者社区的个人空间 - OSCHINA - 中文开源技术交流社区](https://my.oschina.net/u/4526289/blog/5277947) — 2021-10-13 17:45 
 
 - [Lodash 简介 | Lodash 中文文档 | Lodash 中文网](https://www.lodashjs.com/) — 2021-10-13 17:47 
-
-## 工作
-
-### 招聘
-
-- [BOSS直聘-找工作我要跟老板谈！招聘求职找工作！](https://www.zhipin.com/) — 2021-06-12 15:34 
-
-### demo
-
-- [动态 Table - Vue Element Admin](https://panjiachen.gitee.io/vue-element-admin/#/table/dynamic-table) — 2020-04-01 14:31 
-
-- [首页](http://www.jiouai.com/permission/index/index) — 2020-04-01 14:40 
-
-- [vue-manage-system | vue后台管理系统](https://lin-xin.gitee.io/example/work/#/dashboard) — 2020-04-01 15:07 
-
-- [管理后台--演示版](http://api.demo.ruhuashop.com/cms/#/product/new_product) — 2020-04-01 15:44 
-
-- [百度地图的一些操作 - 衡石李 - 博客园](https://www.cnblogs.com/WarrenLee/p/9181893.html) — 2020-04-10 15:04 
-
-- [产品系统](http://192.168.0.10:8080/#/home) — 2020-04-20 14:14 
-
-- [【干货】Chrome插件(扩展)开发全攻略 - 我是小茗同学 - 博客园](https://www.cnblogs.com/liuxianan/p/chrome-plugin-develop.html) — 2020-10-21 11:15 
-
-- [OCR支持 | 小程序插件 | 微信公众平台](https://mp.weixin.qq.com/wxopen/plugindevdoc?appid=wx4418e3e031e551be&token=1554974849&lang=zh_CN) — 2020-08-26 14:10 
-
-- [Vant Weapp - 轻量、可靠的小程序 UI 组件库](https://vant-contrib.gitee.io/vant-weapp/#/dialog) — 2020-09-21 20:42 
-
-- [GitHub](https://github.com/qq449245884/xiaozhi) — 2020-10-16 15:44 
-
-- [如何把自己的项目部署在腾讯云服务器上,别人可以访问(超详细教程)_zhangjin2024的博客-CSDN博客](https://blog.csdn.net/zhangjin2024/article/details/101173520) — 2020-10-31 10:25 
-
-- [将本地web项目部署到云服务器上（腾讯云为例）_福波斯_阿波罗的博客-CSDN博客](https://blog.csdn.net/qq_43003203/article/details/105140116?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.pc_relevant_is_cache&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.pc_relevant_is_cache) — 2020-10-31 10:29 
-
-- [数组的7种排序汇总_一只小绵羊-CSDN博客](https://blog.csdn.net/weixin_43586120/article/details/87972629) — 2020-11-02 10:58 
-
-- [mall-admin-web](http://www.macrozheng.com/admin/#/oms/orderDetail?id=12) — 2020-11-24 16:08 
-
-- [vue实现PC端分辨率适配_韩大璐-CSDN博客](https://blog.csdn.net/weixin_41257563/article/details/97266234) — 2020-11-30 19:33 
-
-- [手动搭建vue+node单页面（一）_个人文章 - SegmentFault 思否](https://segmentfault.com/a/1190000014368466) — 2020-11-09 11:53 
-
-- [Lpyexplore/nav-url: A nav web for urls, which based Vue3](https://github.com/Lpyexplore/nav-url) — 2020-12-10 14:17 
-
-### 零壹
-
-- [登录 - 零壹互联网资源共享平台](http://lingyigz.com/accounts/login/?next=/) — 2019-10-18 08:52 
-
-- [华为云 - DevCloud](https://hn.devcloud.huaweicloud.com/codehub/project/d338b0c962fa45d98b99c85bcb66cc23/codehub/prjcode) — 2019-10-11 14:51 
-
-- [我的地盘 - 禅道](http://192.168.0.62:10080/zentao/my/) — 2020-05-13 18:47 
-
-- [中盈盛达运营支撑平台](http://192.168.0.63:8080/UCG_OSS/loginController.do?login#) — 2020-05-21 15:54 
-
-- [零壹 · GitLab](http://sdp.lingyigz.com:8081/) — 2020-05-11 09:38 
-
-- [小清新图标 - Vab Admin Pro](https://chu1204505056.gitee.io/admin-pro/#/vab/icon/remixIcon) — 2021-03-18 10:26 
-
-- [零壹禅道](http://lingyigz.com:8180/zentao/my/) — 2021-06-03 14:28 
-
-- [汇客禅道](http://116.63.79.106:8090/zentao/user-login-L3plbnRhby9teS5odG1s.html) — 2021-06-19 10:53 
-
-- [桥梁后台](http://192.168.0.62:8190/#/bridge/table1) — 2021-06-18 09:19 
-
-- [业务报送](http://124.71.106.208:9085/swagger-ui.html#/) — 2021-06-24 11:10 
 
 ## 博客
 
@@ -640,15 +570,9 @@
 
 - [阿里大佬bang的博客](http://blog.cnbang.net/works/) — 2018-09-17 12:30 
 
-- [腾讯代码规范](http://alloyteam.github.io/CodeGuide/) — 2018-09-17 12:30 
-
 - [JS功能函数--看云](https://www.kancloud.cn/moriarty/jsvascript_es6/650389) — 2018-11-15 18:26 
 
 - [web前端 - 见识](https://jianshiapp.com/circles/1209) — 2020-04-01 16:54 
-
-- [浏览器工作原理与实践](https://blog.poetries.top/browser-working-principle/) — 2021-02-23 11:30 
-
-- [基础篇 | FE-Interview](http://interview.poetries.top/docs/base.html#_3-http%E7%9A%84%E5%87%A0%E7%A7%8D%E8%AF%B7%E6%B1%82%E6%96%B9%E6%B3%95%E7%94%A8%E9%80%94) — 2021-03-03 16:11 
 
 ## 小程序
 
@@ -988,6 +912,10 @@
 
 - [前端面试开源项目汇总 | Github上100K+ Star 的前端面试开源项目汇总](https://github.com/biaochenxuying/blog/issues/47) — 2021-08-30 15:14 
 
+- [浏览器工作原理与实践](https://blog.poetries.top/browser-working-principle/) — 2021-02-23 11:30 
+
+- [基础篇 | FE-Interview](http://interview.poetries.top/docs/base.html#_3-http%E7%9A%84%E5%87%A0%E7%A7%8D%E8%AF%B7%E6%B1%82%E6%96%B9%E6%B3%95%E7%94%A8%E9%80%94) — 2021-03-03 16:11 
+
 ## 技术社区
 
 - [GitHub  |  高质量内容创作和分享平台](https://github.com/) — 2021-08-30 15:16 
@@ -1087,6 +1015,8 @@
 - [ESLint  |  代码规范检查和格式化工具](https://eslint.org/) — 2021-08-30 16:24 
 
 - [Prettier  | VSCode 最热门的代码格式化工具  让你写出漂亮的代码](https://prettier.io/) — 2021-08-30 16:26 
+
+- [CodeGuide | 腾讯代码规范](http://alloyteam.github.io/CodeGuide/) — 2018-09-17 12:30 
 
 ## 调试抓包
 

@@ -2043,3 +2043,38 @@ document.body.clientHeight // 浏览器所有内容高度
 </html>
 ```
 `offsetTop` 返回的是数字，而 `style.top` 返回的是字符串，除了数字外还带有单位：`px`。
+
+## vue Element-ui 重置message，防止重复点击重复弹出message弹框
+
+```js
+import "@/common/style.css";
+import { Message } from "element-ui";
+let messageInstance = null;
+const resetMessage = (options) => {
+    if (messageInstance) {
+        messageInstance.close();
+    }
+    messageInstance = Message(options);
+};
+["error", "success", "info", "warning"].forEach((type) => {
+    resetMessage[type] = (options) => {
+        if (typeof options === "string") {
+            options = {
+                message: options,
+            };
+        }
+        options.type = type;
+        options.customClass = "mzindex";
+        // console.log('options', options);
+        return resetMessage(options);
+    };
+});
+export const message = resetMessage;
+```
+
+**main.js**
+
+```js
+import { message } from "@u/resetMessage";
+Vue.prototype.$message = message;
+```
