@@ -50,33 +50,38 @@ function renderNav() {
 			text: "导航",
 			link: "/guides/bookmarks/"
 		},
-		{
-			text: "指南",
-			link: "/guides/Home/"
-		},
-		{
-			text: "HTML",
-			link: "/guides/HTML/"
-		},
-		{
-			text: "CSS",
-			link: "/guides/CSS/"
-		},
-		{
-			text: "JavaScript",
-			link: "/guides/JavaScript/"
-		},
 		// {
-		// 	text: "小程序",
-		// 	link: "/guides/miniProgram/"
+		// 	text: "指南",
+		// 	link: "/guides/Home/"
 		// },
 		{
-			text: "Node",
-			link: "/guides/Node/"
-		},
-		{
-			text: "VUE",
-			link: "/guides/VUE/"
+			text: "前端",
+			items: [
+				{
+					text: "HTML",
+					link: "/guides/HTML/"
+				},
+				{
+					text: "CSS",
+					link: "/guides/CSS/"
+				},
+				{
+					text: "JavaScript",
+					link: "/guides/JavaScript/"
+				},
+				{
+					text: "小程序",
+					link: "/guides/miniProgram/"
+				},
+				{
+					text: "VUE",
+					link: "/guides/VUE/"
+				},
+				{
+					text: "Node",
+					link: "/guides/Node/"
+				},
+			]
 		},
 		{
 			text: "笔记",
@@ -162,13 +167,13 @@ function renderSiderBar() {
 					children: readFileList('codeSnippet/post')
 				}
 			],
-			// '/guides/miniProgram': [
-			// 	{
-			// 		title: '微信小程序',
-			// 		collapsable: false,
-			// 		children: readFileList('miniProgram/post')
-			// 	}
-			// ],
+			'/guides/miniProgram': [
+				{
+					title: '微信小程序',
+					collapsable: false,
+					children: readFileList('miniProgram/post')
+				}
+			],
 		}
 	)
 }
