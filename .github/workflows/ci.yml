@@ -44,6 +44,8 @@ jobs:
                  secretId: ${{secrets.SECRETID}}
                  secretKey: ${{secrets.SECRETKEY}}
                  envId: ${{secrets.ENV_ID}}
+                 SENDEMAIL: ${{secrets.SENDEMAIL}}
+                 TOEMAIL: ${{secrets.TOEMAIL}}
             # 发送邮件
             - name: Sene Email
               env:
