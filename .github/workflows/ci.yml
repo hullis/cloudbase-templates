@@ -34,8 +34,6 @@ jobs:
             # 安装项目依赖
             - name: Install Dependencies
               run: npm install
-              env:
-                EMAILPASS: ${{secrets.EMAILPASS}}
             # 发布到云开发
             - name: Deploy to Tencent CloudBase
               uses: TencentCloudBase/cloudbase-action@v2
@@ -44,10 +42,10 @@ jobs:
                  secretId: ${{secrets.SECRETID}}
                  secretKey: ${{secrets.SECRETKEY}}
                  envId: ${{secrets.ENV_ID}}
-                 SENDEMAIL: ${{secrets.SENDEMAIL}}
-                 TOEMAIL: ${{secrets.TOEMAIL}}
             # 发送邮件
             - name: Sene Email
               env:
                 EMAILPASS: ${{secrets.EMAILPASS}}
+                SENDEMAIL: ${{secrets.SENDEMAIL}}
+                TOEMAIL: ${{secrets.TOEMAIL}}
               run:  npm run send
