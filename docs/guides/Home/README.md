@@ -1,3 +1,7 @@
+---
+comment: false 
+# comments: false 
+---
 # 指南
 
 <a href="https://github.com/TencentCloudBase/cloudbase-templates"><img src="https://main.qcloudimg.com/raw/230c115bee4300384fa557710daa2928.jpg"></a>

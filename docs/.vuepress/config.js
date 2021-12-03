@@ -39,6 +39,22 @@ module.exports = ctx => ({
 			before: info => `<UpgradePath title="${info}">`,
 			after: '</UpgradePath>',
 		}],
+		[
+      'vuepress-plugin-comment',
+      {
+        choosen: 'valine', 
+        // options选项中的所有参数，会传给Valine的配置
+        options: {
+          el: '#valine-vuepress-comment',
+          // appId: process.env.LEAN_CLOUD_APPID,
+          // appKey: process.env.LEAN_CLOUD_APPKEY
+          appId: 'L0FoOBzoehJmmQJaYMWUd2Ia-gzGzoHsz',
+          appKey: 'bxvugPH5mVlHmRCoy6mFghJr',
+					// path: '/docs' + window.location.href.split('/docs')[1]
+					path: '<%- frontmatter.to.path || window.location.pathname %>'
+        }
+      }
+    ]
 	],
   extraWatchFiles: [
     './config.js',

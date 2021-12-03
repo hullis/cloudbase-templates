@@ -21,22 +21,22 @@
   ],
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.5.2",
-    "commitizen": "^4.2.2",
-    "cz-conventional-changelog": "^3.3.0",
-    "node-sass": "^4.14.1",
-    "sass-loader": "^10.0.2",
-    "standard-version": "^9.1.0",
-    "vuepress": "^1.2.0",
     "@vuepress/plugin-google-analytics": "^1.0.1",
     "@vuepress/plugin-medium-zoom": "^1.0.1",
     "@vuepress/plugin-pwa": "^1.0.1",
-    "vue-toasted": "^1.1.25",
-    "vuepress-plugin-baidu-google-analytics": "^1.0.0",
-    "vuepress-plugin-flowchart": "^1.4.2",
-    "simple-git": "^2.17.0",
+    "commitizen": "^4.2.2",
     "cross-env": "^7.0.2",
+    "cz-conventional-changelog": "^3.3.0",
     "node-fetch": "2.6.1",
-    "nodemailer": "6.6.3"
+    "node-sass": "^4.14.1",
+    "nodemailer": "6.6.3",
+    "sass-loader": "^10.0.2",
+    "simple-git": "^2.17.0",
+    "standard-version": "^9.1.0",
+    "vue-toasted": "^1.1.25",
+    "vuepress": "^1.2.0",
+    "vuepress-plugin-baidu-google-analytics": "^1.0.0",
+    "vuepress-plugin-flowchart": "^1.4.2"
   },
   "config": {
     "commitizen": {
@@ -47,6 +47,8 @@
     "cheerio": "^1.0.0-rc.2",
     "cz-conventional-changelog-zh": "0.0.2",
     "fs": "0.0.1-security",
+    "valine": "^1.4.16",
+    "vuepress-plugin-comment": "^0.7.3",
     "vuepress-plugin-image": "^1.0.4"
   }
 }

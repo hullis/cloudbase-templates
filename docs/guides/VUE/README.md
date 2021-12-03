@@ -1,3 +1,7 @@
+---
+comment: false 
+# comments: false 
+---
 # Vue的数据响应式原理
 
 [js](vue.js)
