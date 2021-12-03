@@ -42,8 +42,10 @@ jobs:
                  secretId: ${{secrets.SECRETID}}
                  secretKey: ${{secrets.SECRETKEY}}
                  envId: ${{secrets.ENV_ID}}
+                 LEAN_CLOUD_APPID: ${{secrets.LEAN_CLOUD_APPID}}
+                 LEAN_CLOUD_APPKEY: ${{secrets.LEAN_CLOUD_APPKEY}}
             # 发送邮件
-            - name: Sene Email
+            - name: Send Email
               env:
                 EMAILPASS: ${{secrets.EMAILPASS}}
                 SENDEMAIL: ${{secrets.SENDEMAIL}}
